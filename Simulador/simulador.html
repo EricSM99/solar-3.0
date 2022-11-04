@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="simulador.js"></script>
+    <link rel="stylesheet" href="/Simulador/simulador.css">
+    <title>Equatorial Solar</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="">Equatorial Solar</a>
+            <ul class="nav-list" ></ul>
+            <li><a href="index.html">Categorias</a></li>
+            
+        </nav>
+    </header>
+    
+    <main class="cards">
+        <section class="card geral">
+            <div class="icon">
+                <img src="/img/monitor lg.png" alt="">
+            </div>
+            <h3>Monitor Gamer LG 24” LED IPS Full HD 1ms MBR FreeSync</h3>
+                <div class="container">
+                    <p>Horas: </p>
+                    <input type="number" min="0" max="24">
+                    <p>Quantidade:</p>
+                    <input type="number" min="0">
+                </div><br>         
+            <button>Adicionar ao carrinho</button>
+        </section>
+
+        <section class="card geral">
+            <div class="icon">
+                <img src="/img/geladeira-consul-frost-free-duplex-410l-cor-inox-com-controle-interno-de-temperatura-espaco-flex-crm.png" alt="">
+            </div>
+            <h3>Geladeira Consul Frost Free Duplex 410 litros</h3>
+            <div class="container">
+                <p>Horas: </p>
+                    <input id="hgeladeira" type="number" min="0" max="24">
+                    <p>Quantidade:</p>
+                    <input id="qgeladeira" type="number" min="0">
+            </div><br>  
+            <button onclick="geladeira()">Adicionar ao carrinho</button>
+        </section>
+
+        <section class="card geral">
+            <div class="icon">
+                <img src="/img/AR-COND-PRIME-AIR-12000ITF_096662186_03.png" alt="">
+            </div>
+            <h3>Ar-Condicionado Prime Air 12000btus</h3>
+            <div class="container">
+                <p>Horas: </p>
+                <input id="harcondicionado" type="number" min="0" max="24">
+                <p>Quantidade:</p>
+                <input id="qarcondicionado" type="number" min="0">
+            </div><br> 
+            <button onclick="arcondicionado()">Adicionar ao carrinho</button>
+        </section>
+
+        <section class="card geral">
+            <div class="icon">
+                <img src="/img/27292ca10b4070725bd924aa0313aa15.png" alt="">
+            </div>
+            <h3>Smart TV 4K Crystal UHD 58</h3>
+                <div class="container">
+                    <p>Horas: </p>
+                    <input type="number" min="0" max="24">
+                    <p>Quantidade:</p>
+                    <input type="number" min="0">
+                </div><br>         
+            <button>Adicionar ao carrinho</button>
+        </section>
+
+        <section class="card geral">
+            <div class="icon">
+                <img src="/img/chuveiro-acqua-storm-6556950-1567462036414.jpg" alt="">
+            </div>
+            <h3>Chuveiro Elétrico Acqua Storm</h3>
+            <div class="container">
+                <p>Horas: </p>
+                    <input type="number" min="0" max="24">
+                    <p>Quantidade:</p>
+                    <input type="number" min="0">
+            </div><br>  
+            <button>Adicionar ao carrinho</button>
+        </section>
+    </main>
+
+    <div class="main-login">
+        <button class="btn-login"> <a href="/Formulario/formulario.html"> Prosseguir </a></button>
+
+    </div>
+
+    <div id="res">Resultado</div>
+</body>
+</html>
