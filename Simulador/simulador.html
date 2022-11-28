@@ -28,11 +28,11 @@
             <h3>Monitor Gamer LG 24” LED IPS Full HD 1ms MBR FreeSync</h3>
                 <div class="container">
                     <p>Horas: </p>
-                    <input type="number" min="0" max="24">
+                    <input id="hmonitor" type="number" min="0" max="24">
                     <p>Quantidade:</p>
-                    <input type="number" min="0">
+                    <input id="qmonitor" type="number" min="0">
                 </div><br>         
-            <button>Adicionar ao carrinho</button>
+            <button onclick="monitor()">Adicionar ao carrinho</button>
         </section>
 
         <section class="card geral">
@@ -70,11 +70,11 @@
             <h3>Smart TV 4K Crystal UHD 58</h3>
                 <div class="container">
                     <p>Horas: </p>
-                    <input type="number" min="0" max="24">
+                    <input id="htv" type="number" min="0" max="24">
                     <p>Quantidade:</p>
-                    <input type="number" min="0">
+                    <input id="qtv" type="number" min="0">
                 </div><br>         
-            <button>Adicionar ao carrinho</button>
+            <button onclick="tv()" >Adicionar ao carrinho</button>
         </section>
 
         <section class="card geral">
@@ -84,15 +84,16 @@
             <h3>Chuveiro Elétrico Acqua Storm</h3>
             <div class="container">
                 <p>Horas: </p>
-                    <input type="number" min="0" max="24">
+                    <input id="hchuveiro" type="number" min="0" max="24">
                     <p>Quantidade:</p>
-                    <input type="number" min="0">
+                    <input id="qgeladeira" type="number" min="0">
             </div><br>  
             <button>Adicionar ao carrinho</button>
         </section>
     </main>
 
     <div class="main-login">
+        <button class="btn-login" onclick="resultado()">Resultado</button>
         <button class="btn-login"> <a href="/Formulario/formulario.html"> Prosseguir </a></button>
 
     </div>

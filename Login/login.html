@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
     <title>Equatorial Solar</title>
 </head>
 <body>
@@ -17,15 +18,21 @@
         <div class="right-login">
             <div class="card-login">
                 <h1>LOGIN</h1>
-                <div class="textfield">
-                    <label for="email">Email</label>
-                    <input type="email" name="email">
-                </div>
-                <div class="textfield">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha">
-                </div>
-                <button class="btn-login">Entrar</button>
+                <form>
+                    <div class="textfield">
+                        <label for="nomes">Email</label>
+                        <input type="email" name="nomes" id="nomes">
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha">
+                    </div>
+                   
+
+                </form>
+                <button type="submit" onclick="logar()" class="btn-login">Entrar</button>
+              
+                
             </div>
         </div>
     </div>
